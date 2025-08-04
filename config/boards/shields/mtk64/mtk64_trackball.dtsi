@@ -69,6 +69,12 @@
         status = "disabled";
         device = <&trackball_split>;
 
+        scroll {
+        layers = <3>;
+        input-processors = <&zip_xy_to_scroll_mapper>, <&zip_scroll_scaler 1 64>;
+        process-next;
+        };
+
         input-processors = <&zip_temp_layer 6 5000>;
 
     };
