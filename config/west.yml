@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mentako-ya
       url-base: https://github.com/mentako-ya
+    - name: carrefinho
+      url-base: https://github.com/carrefinho
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -14,6 +16,9 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget
       remote: mentako-ya
+      revision: main
+    - name: prospector-zmk-module
+      remote: carrefinho
       revision: main
   self:
     path: config

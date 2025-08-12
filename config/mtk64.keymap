@@ -43,6 +43,7 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Default";
             bindings = <
 &kp DELETE  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5  &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &kp BACKSPACE  &kp TAB  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &kp I  &kp O  &kp P  &kp AT_SIGN  &kp LEFT_ALT  &kp A  &lt 2 S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &lt 1 L  &kp SEMICOLON  &kp APOS  &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp RIGHT_BRACE  &kp NON_US_HASH  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH  &kp INTERNATIONAL_1  &kp LCTRL  &kp LGUI  &mt LEFT_CONTROL SPACE  &kp LEFT_ARROW  &kp UP_ARROW  &mt RIGHT_SHIFT ENTER  &kp EQUAL  &kp INTERNATIONAL_3  &kp LEFT_SHIFT  &kp LEFT_GUI  &kp RIGHT_ARROW  &kp DOWN_ARROW  &kp ENTER  &tog 2  &kp LANGUAGE_2  &kp LANG1  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3  &mo 1  &mo 2  &mo 3
             >;
@@ -51,6 +52,7 @@
         };
 
         mouse_layer {
+            display-name = "Mouse"; 
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 5  &none  &none  &none  &none  &none  &studio_unlock  &none  &none  &none  &kp MINUS  &none  &none  &none  &kp F5  &kp LS(LG(S))  &none  &none  &none  &none  &none  &none  &kp LS(INTERNATIONAL_1)  &kp INTERNATIONAL_1  &none  &none  &mkp LCLK  &mkp RCLK  &none  &mo 3  &none  &none  &none  &none  &none  &none  &none  &none  &none  &mkp MB5  &mkp MB4  &kp LG(TAB)  &none  &none  &none  &bootloader  &none  &kp LEFT_SHIFT  &kp LC(PAGE_UP)  &kp RC(TAB)  &kp BACKSPACE  &none  &none  &none  &kp LA(RETURN)  &kp LC(PAGE_DOWN)  &kp RC(RS(TAB))  &trans  &trans  &kp DELETE  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -61,6 +63,7 @@
         };
 
         number_layer {
+            display-name = "Number"; 
             bindings = <
 &none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &none  &kp Q  &kp W  &kp E  &kp R  &kp T  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &kp F12  &none  &lt 4 A  &none  &kp D  &kp F  &kp G  &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp EQUAL  &none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none  &none  &kp LEFT_SHIFT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
@@ -72,6 +75,7 @@
         };
 
         scroll {
+            display-name = "Scroll"; 
             bindings = <
 &kp ESCAPE  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp UP_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp LEFT_ALT  &none  &none  &kp RS(RA(RC(RG(TAB))))  &none  &none
             >;
@@ -83,18 +87,21 @@
         };
 
         function_layer {
+            display-name = "Function"; 
             bindings = <
 &none  &none  &none  &none  &none  &none  &none  &kp F10  &kp F11  &kp F12  &none  &none  &none  &none  &none  &none  &none  &none  &kp F12  &kp F7  &kp F8  &kp F9  &none  &none  &none  &none  &none  &none  &kp LS(LC(F))  &none  &kp F11  &kp F4  &kp F5  &kp F6  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &kp F10  &kp F1  &kp F2  &kp F3  &none  &none  &none  &none  &kp F12  &none  &none  &none  &none  &none  &none  &kp F12  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
             >;
         };
 
         layer_5 {
+            display-name = "5"; 
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
         layer_6 {
+            display-name = "6"; 
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB5  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
