@@ -3,6 +3,7 @@
 
 / {
     chosen {
+        zmk,kscan = &kscan0;
         zmk,physical-layout = &mtk64_physical_layout;
     };
     
@@ -10,7 +11,6 @@
         compatible = "zmk,physical-layout";
         display-name = "Default";
         transform = <&default_transform>;
-        kscan = <&kscan0>;
 
         // https://zmk-physical-layout-converter.streamlit.app/
         keys  //                 w   h    x    y     rot    rx    ry
@@ -119,6 +119,7 @@
              >;
     };
     
+    /*
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-charlieplex";
         wakeup-source;
@@ -134,6 +135,7 @@
                 ;
 
     };
+
 
     left_encoder: encoder_left {
         compatible = "alps,ec11";
@@ -156,4 +158,5 @@
         sensors = <&left_encoder &right_encoder>;
         triggers-per-rotation = <10>;
     };
+    */
 };
