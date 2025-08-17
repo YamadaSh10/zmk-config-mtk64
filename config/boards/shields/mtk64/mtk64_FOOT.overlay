@@ -9,8 +9,6 @@
     status = "okay";  
 };
 
-&xiao_serial { status = "disabled"; };
-
 / {
    chosen {
       zmk,kscan = &mock_kscan;
