@@ -4,8 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mentako-ya
       url-base: https://github.com/mentako-ya
-    - name: janpfischer
-      url-base: https://github.com/janpfischer
+    - name: YamadaSh10
+      url-base: https://github.com/YamadaSh10
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,7 +18,7 @@ manifest:
       remote: mentako-ya
       revision: main
     - name: zmk-dongle-screen
-      remote: janpfischer
+      remote: YamadaSh10
       revision: main
   self:
     path: config
