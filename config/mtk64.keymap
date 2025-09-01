@@ -66,7 +66,7 @@
         number_layer {
             display-name = "Number";
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &none  &kp Q  &kp W  &kp E  &kp R  &kp T  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &kp F12  &none  &lt 4 A  &none  &kp D  &kp F  &kp G  &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp EQUAL  &none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none  &none  &kp LEFT_SHIFT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &none  &kp Q  &kp W  &kp E  &kp R  &kp T  &none  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &none  &kp F12  &none  &lt 4 A  &none  &kp D  &kp LS(F10)  &kp G  &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &none  &none  &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp EQUAL  &none  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &none  &none  &none  &none  &kp LEFT_SHIFT  &none  &none  &none  &none  &none  &none  &none  &none  &none  &trans  &trans  &none  &none  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LC(TAB)>, <&inc_dec_kp F24 F23>;
