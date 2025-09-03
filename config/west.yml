@@ -19,6 +19,6 @@ manifest:
       revision: main
     - name: zmk-dongle-screen
       remote: YamadaSh10
-      revision: main
+      revision: feature/image
   self:
     path: config
