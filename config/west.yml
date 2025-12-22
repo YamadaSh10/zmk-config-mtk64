@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: badjeff
       url-base: https://github.com/badjeff
+    - name: mentako-ya
+      url-base: https://github.com/mentako-ya
     - name: YamadaSh10
       url-base: https://github.com/YamadaSh10
   projects:
