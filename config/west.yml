@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: badjeff
-      url-base: https://github.com/badjeff
     - name: mentako-ya
       url-base: https://github.com/mentako-ya
     - name: YamadaSh10
@@ -14,8 +12,8 @@ manifest:
       revision: v0.3
       import: app/west.yml
     - name: zmk-pmw3610-driver
-      remote: badjeff
-      revision: zmk-0.3
+      remote: mentako-ya
+      revision: main
     - name: zmk-rgbled-widget
       remote: mentako-ya
       revision: main
