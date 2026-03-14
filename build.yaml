@@ -19,7 +19,7 @@
 ---
 include:
  - board: xiao_ble//zmk
-   shield: mtk64_FOOT dongle_round_display
+   shield: mtk64_DONGLE dongle_round_display
    snippet: studio-rpc-usb-uart
    cmake-args: -DCONFIG_ZMK_STUDIO=y
    artifact-name: dongle-round-display
