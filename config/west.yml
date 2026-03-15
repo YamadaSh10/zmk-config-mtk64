@@ -22,7 +22,7 @@ manifest:
       remote: caksoylar
       revision: main
     - name: zmk-module-xiaord
-      url: https://github.com/YamadaSh10/zmk_round_display.git
+      url: https://github.com/TakeshiAkehi/zmk-module-xiaord.git
       revision: main
   self:
     path: config
