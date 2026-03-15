@@ -1,32 +1,38 @@
 if SHIELD_MTK64_R
 
-config ZMK_KEYBOARD_NAME
-    default "mtk64"
+	config ZMK_KEYBOARD_NAME
+	    default "mtk64"
 
-config ZMK_SPLIT
-    default y
+	config ZMK_SPLIT
+	    default y
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+	config ZMK_SPLIT_ROLE_CENTRAL
+	    default n
 
 endif
 
 if SHIELD_MTK64_L
 
-config ZMK_KEYBOARD_NAME
-    default "mtk64_L"
+	config ZMK_KEYBOARD_NAME
+	    default "mtk64_L"
+	
+	config ZMK_SPLIT
+	    default y
 
-config ZMK_SPLIT
-    default y
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default n
 
 endif
 
 if SHIELD_MTK64_FOOT
 
-config ZMK_KEYBOARD_NAME
-    default "mtk64_FOOT"
+	config ZMK_KEYBOARD_NAME
+	    default "mtk64_FOOT"
+	
+	config ZMK_SPLIT
+	    default y
 
-config ZMK_SPLIT
-    default y
+    config ZMK_SPLIT_ROLE_CENTRAL
+        default y
 
 endif

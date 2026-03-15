@@ -21,5 +21,8 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
+    - name: zmk-module-xiaord
+      url: https://github.com/TakeshiAkehi/zmk-module-xiaord.git
+      revision: main
   self:
     path: config
