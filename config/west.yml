@@ -4,8 +4,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: mentako-ya
       url-base: https://github.com/mentako-ya
-    - name: YamadaSh10
-      url-base: https://github.com/YamadaSh10
     - name: badjeff
       url-base: https://github.com/badjeff
     - name: caksoylar
@@ -23,8 +21,8 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: zmk_round_display
-      remote: YamadaSh10
+    - name: zmk-module-xiaord
+      url: https://github.com/YamadaSh10/zmk_round_display.git
       revision: main
   self:
     path: config
