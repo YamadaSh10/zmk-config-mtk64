@@ -25,6 +25,6 @@ include:
  - board: xiao_ble//zmk
    shield: mtk64_L rgbled_adapter
  - board: xiao_ble//zmk
-   shield: mtk64_FOOT rgbled_adapter
+   shield: xiaord mtk64_FOOT
  - board: xiao_ble//zmk
    shield: settings_reset
