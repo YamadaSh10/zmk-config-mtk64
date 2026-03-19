@@ -1,8 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&trackball_listener {
-    status = "okay";  
-};
 
 / {
     chosen {
