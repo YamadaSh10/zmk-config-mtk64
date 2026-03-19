@@ -9,6 +9,9 @@
 &kscan0 {
     status = "disabled";
 };
+&default_transform {
+    row-offset = <14>;
+};
 &trackball_listener {
     status = "okay";  
 };
