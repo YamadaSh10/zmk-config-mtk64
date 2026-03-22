@@ -10,6 +10,7 @@ manifest:
       url-base: https://github.com/caksoylar
     - name: englmaxi
       url-base: https://github.com/englmaxi
+    - name: YamadaSh10
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -21,8 +22,8 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: zmk_round_display
-      url: https://github.com/YamadaSh10/zmk_round_display.git
+    - name: zmk-module-xiaord
+      remote: YamadaSh10
       revision: main
   self:
     path: config
