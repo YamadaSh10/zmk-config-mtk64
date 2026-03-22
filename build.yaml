@@ -22,9 +22,13 @@ include:
    shield: mtk64_R rgbled_adapter
    snippet: studio-rpc-usb-uart
    cmake-args: -DCONFIG_ZMK_STUDIO=y
+   artifact-name: mtk64_Right
  - board: xiao_ble//zmk
    shield: mtk64_L rgbled_adapter
+   artifact-name: mtk64_Left
  - board: xiao_ble//zmk
-   shield: mtk64_FOOT rgbled_adapter
+   shield: xiaord mtk64_DONGLE
+   artifact-name: mtk64_RoundDongle
  - board: xiao_ble//zmk
    shield: settings_reset
+   artifact-name: mtk64_SettingsReset
