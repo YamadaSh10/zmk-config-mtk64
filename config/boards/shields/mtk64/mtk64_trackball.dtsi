@@ -40,7 +40,9 @@
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
 
-        swap_xy;
+        swap-xy;
+        invert-x;
+        invert-y;
 
         force-awake;
         /* keep the sensor awake while ZMK activity state is ACTIVE,
