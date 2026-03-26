@@ -25,6 +25,6 @@ manifest:
       revision: main
     - name: zmk-module-xiaord
       remote: YamadaSh10
-      revision: main
+      revision: feature/page_mouse
   self:
     path: config

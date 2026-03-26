@@ -40,7 +40,7 @@
 // &home_button_6  { symbol = <ICON_PLAY>;       };               /*  6 o'clock */
 // &home_button_7  { symbol = <ICON_PREV>;       };               /*  7 o'clock */
 // &home_button_8  { symbol = <ICON_WARNING>;    };               /*  8 o'clock */
-// &home_button_9  { symbol = <ICON_USB>;        };               /*  9 o'clock */
+&home_button_9  { symbol = <ICON_USB>;  nav-page = <XIAORD_PAGE_MOUSE>; };               /*  9 o'clock */
 // &home_button_10 { symbol = <ICON_BLUETOOTH>;  nav-page = <XIAORD_PAGE_BT>; };    /* 10 o'clock */
 // &home_button_11 { symbol = <ICON_SETTINGS>;   nav-page = <XIAORD_PAGE_CLOCK>; }; /* 11 o'clock */
 
@@ -58,7 +58,7 @@
         &kp C_VOL_UP           &kp C_MUTE
         &kp C_VOL_DN           &kp C_NEXT
         &kp C_PLAY             &kp C_PREV
-        &kp LC(LA(DEL))        &out OUT_TOG
+        &kp LC(LA(DEL))        &none
         &none                  &none
     >;
 };
